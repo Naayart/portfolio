@@ -37,6 +37,8 @@ nav {
   /* inline-size: 60%; */
   /* overflow-wrap: break-word; */
   width: 60%;
+  color: white;
+  margin-top: 20px;
   /* line-height: 2.5; */
 }
 
@@ -46,4 +48,39 @@ nav {
 
 .text-bold {
   font-weight: bold;
+}
+
+.hanging-text {
+  color: #0779;
+  background: #fff;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 4px 5px;
+  letter-spacing: 1px;
+  position: relative;
+  display: inline-block;
+  z-index: 0;
+  border-radius: 4px;
+}
+
+.first-h,
+.second-h {
+  color: #fff;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 1.2;
+}
+
+/* .hme {
+  margin-bottom: 50px;
+} */
+
+.hire {
+  background-color: #0779e4;
+  border: 1px solid #0779e4;
+}
+
+.vport {
+  background-color: #fff;
 }
